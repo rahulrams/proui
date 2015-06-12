@@ -1,0 +1,161 @@
+@font-face { font-family: 'Alive'; src: url("fonts/Alive.eot?#iefix") format("embedded-opentype"), url("fonts/Alive.woff") format("woff"), url("fonts/Alive.ttf") format("truetype"), url("fonts/Alive.svg#Alive") format("svg"); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: 'Oswald'; src: url("fonts/Oswald.eot?#iefix") format("embedded-opentype"), url("fonts/Oswald.woff") format("woff"), url("fonts/Oswald.ttf") format("truetype"), url("fonts/Oswald.svg#Oswald") format("svg"); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: 'Oswald-Bold'; src: url("fonts/Oswald-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/Oswald-Bold.woff") format("woff"), url("fonts/Oswald-Bold.ttf") format("truetype"), url("fonts/Oswald-Bold.svg#Oswald-Bold") format("svg"); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: 'UniversLTPro-55Roman'; src: url("fonts/UniversLTPro-55Roman.eot?#iefix") format("embedded-opentype"), url("fonts/UniversLTPro-55Roman.woff") format("woff"), url("fonts/UniversLTPro-55Roman.ttf") format("truetype"), url("fonts/UniversLTPro-55Roman.svg#UniversLTPro-55Roman") format("svg"); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: 'UniversLTPro-45Light'; src: url("fonts/UniversLTPro-45Light.eot?#iefix") format("embedded-opentype"), url("fonts/UniversLTPro-45Light.woff") format("woff"), url("fonts/UniversLTPro-45Light.ttf") format("truetype"), url("fonts/UniversLTPro-45Light.svg#UniversLTPro-45Light") format("svg"); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: "custom-font"; src: url("fonts/custom-font.eot"); src: url("fonts/custom-font.eot?#iefix") format("embedded-opentype"), url("fonts/custom-font.woff") format("woff"), url("fonts/custom-font.ttf") format("truetype"), url("fonts/custom-font.svg#custom-font") format("svg"); font-weight: normal; font-style: normal; }
+
+[data-icon]:before { font-family: "custom-font" !important; content: attr(data-icon); font-style: normal !important; font-weight: normal !important; font-variant: normal !important; text-transform: none !important; speak: none; line-height: 1; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+[class^="icon-"]:before, [class*=" icon-"]:before { font-family: "custom-font" !important; font-style: normal !important; font-weight: normal !important; font-variant: normal !important; text-transform: none !important; speak: none; line-height: 1; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+.icon-social-twitter:before { content: "a"; }
+
+.icon-google-plus:before { content: "c"; }
+
+.icon-facebook:before { content: "d"; }
+
+.icon-instagram:before { content: "e"; }
+
+.icon-angle-right:before { content: "f"; }
+
+.icon-angle-left:before { content: "g"; }
+
+.icon-angle-down:before { content: "h"; }
+
+.icon-angle-up:before { content: "i"; }
+
+.icon-x:before { content: "j"; }
+
+.icon-bus-two:before { content: "k"; }
+
+.icon-car-front:before { content: "l"; }
+
+.icon-buy-tickets:before { content: "m"; }
+
+.icon-ptint:before { content: "n"; }
+
+.icon-mail-bubble:before { content: "p"; }
+
+.icon-chevron-left:before { content: "q"; }
+
+.icon-chevron-right:before { content: "r"; }
+
+.icon-chevron-up:before { content: "s"; }
+
+.icon-alert:before { content: "t"; }
+
+.icon-calendar:before { content: "v"; }
+
+.icon-play:before { content: "w"; }
+
+.icon-pause:before { content: "x"; }
+
+.icon-volume-up:before { content: "y"; }
+
+.icon-volume-down:before { content: "z"; }
+
+.icon-search:before { content: "A"; }
+
+.icon-split:before { content: "B"; }
+
+.icon-chevron-down:before { content: "C"; }
+
+.icon-regional-railways:before { content: "D"; }
+
+.icon-camera-1:before { content: "E"; }
+
+.icon-check:before { content: "F"; }
+
+.icon-youtube:before { content: "b"; }
+
+.icon-pinterest:before { content: "G"; }
+
+.icon-information-circle:before { content: "o"; }
+
+.icon-plus-1:before { content: "H"; }
+
+.icon-minus-1:before { content: "J"; }
+
+.icon-chevron-down-1:before { content: "I"; }
+
+.icon-sms-bubble:before { content: "u"; }
+
+.icon-tick:before { content: "K"; }
+
+/* Slider */
+.slick-slider { position: relative; display: block; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; -ms-touch-action: pan-y; touch-action: pan-y; -webkit-tap-highlight-color: transparent; }
+
+.slick-list { position: relative; overflow: hidden; display: block; margin: 0; padding: 0; }
+.slick-list:focus { outline: none; }
+.slick-loading .slick-list { background: white url('/images/ajax-loader.gif') center center no-repeat; }
+.slick-list.dragging { cursor: pointer; cursor: hand; }
+
+.slick-slider .slick-track { -webkit-transform: translate3d(0, 0, 0); -moz-transform: translate3d(0, 0, 0); -ms-transform: translate3d(0, 0, 0); -o-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); }
+
+.slick-track { position: relative; left: 0; top: 0; display: block; }
+.slick-track:before, .slick-track:after { content: ""; display: table; }
+.slick-track:after { clear: both; }
+.slick-loading .slick-track { visibility: hidden; }
+
+.slick-slide { float: left; height: 100%; min-height: 1px; display: none; }
+[dir="rtl"] .slick-slide { float: right; }
+.slick-slide img { display: block; }
+.slick-slide.slick-loading img { display: none; }
+.slick-slide.dragging img { pointer-events: none; }
+.slick-initialized .slick-slide { display: block; }
+.slick-loading .slick-slide { visibility: hidden; }
+.slick-vertical .slick-slide { display: block; height: auto; border: 1px solid transparent; }
+
+/* Icons */
+@font-face { font-family: "slick"; src: url('/fonts/slick.eot'); src: url('/fonts/slick.eot?#iefix') format("embedded-opentype"), url('/fonts/slick.woff') format("woff"), url('/fonts/slick.ttf') format("truetype"), url('/fonts/slick.svg#slick') format("svg"); font-weight: normal; font-style: normal; }
+
+/* Arrows */
+.slick-prev, .slick-next { position: absolute; display: block; height: 20px; width: 20px; line-height: 0; font-size: 0; cursor: pointer; background: transparent; color: transparent; top: 50%; margin-top: -10px; padding: 0; border: none; outline: none; }
+.slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus { outline: none; background: transparent; color: transparent; }
+.slick-prev:hover:before, .slick-prev:focus:before, .slick-next:hover:before, .slick-next:focus:before { opacity: 1; }
+.slick-prev.slick-disabled:before, .slick-next.slick-disabled:before { opacity: 0.25; }
+
+.slick-prev:before, .slick-next:before { font-family: "slick"; font-size: 20px; line-height: 1; color: white; opacity: 0.75; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+.slick-prev { left: -25px; }
+[dir="rtl"] .slick-prev { left: auto; right: -25px; }
+.slick-prev:before { content: "\2190"; }
+[dir="rtl"] .slick-prev:before { content: "\2192"; }
+
+.slick-next { right: -25px; }
+[dir="rtl"] .slick-next { left: -25px; right: auto; }
+.slick-next:before { content: "\2192"; }
+[dir="rtl"] .slick-next:before { content: "\2190"; }
+
+/* Dots */
+.slick-slider { margin-bottom: 30px; }
+
+.slick-dots { position: absolute; bottom: -45px; list-style: none; display: block; text-align: center; padding: 0; width: 100%; }
+.slick-dots li { position: relative; display: inline-block; height: 20px; width: 20px; margin: 0 5px; padding: 0; cursor: pointer; }
+.slick-dots li button { border: 0; background: transparent; display: block; height: 20px; width: 20px; outline: none; line-height: 0; font-size: 0; color: transparent; padding: 5px; cursor: pointer; }
+.slick-dots li button:hover, .slick-dots li button:focus { outline: none; }
+.slick-dots li button:hover:before, .slick-dots li button:focus:before { opacity: 1; }
+.slick-dots li button:before { position: absolute; top: 0; left: 0; content: "\2022"; width: 20px; height: 20px; font-family: "slick"; font-size: 6px; line-height: 20px; text-align: center; color: black; opacity: 0.25; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+.slick-dots li.slick-active button:before { color: black; opacity: 0.75; }
+
+.initial { background: red; }
+
+.full-component-placeholder { min-height: 200px; }
+
+.contained-component-placeholder { min-height: 200px; }
+
+.layout-col-1, .layout-col-2, .layout-col-3, .layout-col-4 { float: left; position: relative; min-height: 1px; padding-left: 16px; padding-right: 16px; min-height: 200px; background: aliceblue; }
+
+.layout-col-1 { width: 25%; }
+
+.layout-col-2 { width: 50%; }
+
+.layout-col-3 { width: 75%; }
+
+.layout-col-4 { width: 100%; }
