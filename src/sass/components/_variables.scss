@@ -1,0 +1,54 @@
+$media-phone: 480px !default;
+$bg-component: #607D8B;
+$bg-component-alternate: #8BC34A;
+
+$color-primary: #3F51B5;
+$color-primary-light: #C5CAE9;
+$color-primary-dark: #303F9F;
+
+$color-secondary: #FF4081;
+$color-secondary-light: #FF80AB;
+$color-secondary-dark: #F50057;
+$color-secondary-fallback: #FFFFFF;
+
+$text-color-dark: #333333;
+$text-color-dark-secondary: #666666;
+$text-color-dark-disabled: #BDBDBD;
+$text-color-dark-dividers: #E1E1E1;
+
+$text-color-light: #CCCCCC;
+$text-color-light-secondary: #888888;
+$text-color-light-disabled: #424242;
+$text-color-light-dividers: #1E1E1E;
+
+.pro-theme {
+    color: $text-color-dark;
+    .component {
+        .component-content {
+            background-color: $color-primary;
+            color: $text-color-light;
+            a{
+                color: $color-secondary-light;
+                &:hover{
+                    color: $color-secondary;
+                }
+            }
+        }        
+        &:nth-child(2n) .component-content {
+            background-color: $color-primary-light;
+            color: $text-color-dark;
+            a{
+                color: $color-secondary-dark;
+                &:hover{
+                    color: $color-secondary;
+                }
+            }
+        }
+    }
+    a{
+        color: $color-secondary;
+        &:hover{
+            color: $color-secondary-light;
+        }
+    }
+}
