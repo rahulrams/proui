@@ -68,14 +68,6 @@ ul, ol {
     }
 }
 
-.main-header {
-	padding: 15px 0;
-}
-
-.main-footer {
-	padding: 15px 0;
-}
-
 @mixin resetColumns {
     .layout-col-1, .layout-col-2, .layout-col-3, .layout-col-4 {
         float: none; width: auto;
