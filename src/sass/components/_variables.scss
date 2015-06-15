@@ -24,7 +24,11 @@ $text-color-light-dividers: #1E1E1E;
 .pro-theme {
     color: $text-color-dark;
     .component {
+        padding: 0px;
         .component-content {
+            padding: 15px;
+            display: block;
+            height: 100%;
             background-color: $color-primary;
             color: $text-color-light;
             a{
@@ -43,6 +47,18 @@ $text-color-light-dividers: #1E1E1E;
                     color: $color-secondary;
                 }
             }
+        }
+        h3 {
+            margin-top: 0px;
+        }
+    }
+    .card-container {
+        padding-top: 15px;
+        .component {
+            padding: 0px 15px 15px 0px;
+        }
+        &>.container {
+            padding-right: 0px;
         }
     }
     a{

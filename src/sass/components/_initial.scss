@@ -1,125 +1,4 @@
-@import "variables";
-// ----------------------------------------------------
-// _ad-sub-hero
-// ----------------------------------------------------
-ul, ol {
-    margin-bottom: 0;
-    margin-top: 0;
-}
-
-.initial{
-    background:red;
-}
-
-.full-component-placeholder {
-	min-height: 200px;
-}
-
-.contained-component-placeholder.card-container {
-	min-height: 200px;    
-}
-
-.contained-component-placeholder.card-container {
-	padding-top: 15px;
-}
-
-.contained-component-placeholder.card-container > .container {
-	padding-right: 0px;
-}
-
-.layout-col-1, .layout-col-2, .layout-col-3, .layout-col-4 {
-    float: left;
-    position: relative;
-    min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-.layout-col-1           { float: left; width: 25%;  }
-.layout-col-2           { float: left; width: 50%;  }
-.layout-col-3           { float: left; width: 75%;  }
-.layout-col-4           { float: left; width: 100%; }
-
-.layout-3 {
-    .col-sm-4 {
-        .layout-col-1   { width: 100%; }
-        .layout-col-2   { width: 100%; }
-        .layout-col-3   { width: 100%; }
-        .layout-col-4   { width: 100%; }
-    }
-    .col-sm-8 {
-        .layout-col-1   { width: 50%;  }
-        .layout-col-2   { width: 100%; }
-        .layout-col-3   { width: 100%; }
-        .layout-col-4   { width: 100%; }
-    }
-    .col-sm-12 {
-        .layout-col-1   { width: 33.3333%; }
-        .layout-col-2   { width: 66.6667%; }
-        .layout-col-3   { width: 100%; }
-        .layout-col-4   { width: 100%; }
-    }
-
-}
-
-.layout-4 {
-    // 1 Column : Left and Right Rail
-    .col-sm-3 {
-        .layout-col-1           { width: 100%; }
-        .layout-col-2           { width: 100%; }
-        .layout-col-3           { width: 100%; }
-        .layout-col-4           { width: 100%; }
-    }
-
-    // 2 Column : Main Content (3 column template)
-    .col-sm-6 {
-        .layout-col-1           { width: 50%;  }
-        .layout-col-2           { width: 100%; }
-        .layout-col-3           { width: 100%; }
-        .layout-col-4           { width: 100%; }
-    }
-
-    // 3 Column : Main Content (2 column template)
-    .col-sm-9 {
-        .layout-col-1           { width: 33.3333%; }
-        .layout-col-2           { width: 66.6667%; }
-        .layout-col-3           { width: 100%; }
-        .layout-col-4           { width: 100%; }
-    }
-}
-
-.main-header {
-	background-color: lightblue;
-	padding: 15px 0;
-}
-
-.main-footer {
-	background:#2196F3;
-	padding: 15px 0;
-}
-
-@mixin resetColumns {
-    .layout-col-1, .layout-col-2, .layout-col-3, .layout-col-4 {
-        float: none; width: auto;
-    }
-}
-
-@media (max-width: $media-phone) {
-    @include resetColumns;
-
-    .layout-3 {
-        .col-sm-4, .col-sm-8, .col-sm-12 {
-            @include resetColumns;
-        }
-    }
-
-    .layout-3 {
-        // 1 Column : Left and Right Rail
-        .col-sm-3, .col-sm-6, .col-sm-9 {
-            @include resetColumns;
-        }
-    }
-}
+/****************** COMPONENTS **********************/
 
 .page-list ul {
     list-style: outside none none;
@@ -136,14 +15,6 @@ ul, ol {
     display: block;
     padding: 4px 8px; 
 }
-
-/*.hero-carousel ul {
-    padding: 0px;
-}
-
-.hero-carousel ul li {
-    display: block;
-}*/
 
 .hero-carousel .bg {
     position: absolute;
@@ -177,41 +48,6 @@ ul, ol {
 
 .image-responsive img {
     width: 100%;
-}
-
-.component {
-    padding: 0px;
-}
-
-.card-container .component {
-    padding: 0px 15px 15px 0px;
-}
-
-.component .component-content {
-    padding: 15px;
-    display: block;
-    height: 100%;
-}
-
-/*.card {
-    display: block;
-    padding: 8px;
-    background: none;
-}
-
-.card .component-content {
-    background: #89B4FD;
-    padding: 15px;
-    display: block;
-    height: 100%;
-}*/
-
-.component h3 {
-    margin-top: 0px;
-}
-
-.bookmarks-menu .component-content {
-    padding: 0px;
 }
 
 .bookmarks-menu ul {
@@ -251,3 +87,5 @@ ul, ol {
 .slick-slider.hero-carousel .slick-dots {
     bottom: -30px;
 }
+
+/****************** COMPONENTS **********************/
