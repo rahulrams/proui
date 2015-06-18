@@ -7,6 +7,54 @@ ul, ol {
     margin-top: 0;
 }
 
+.pro-theme {
+    color: $text-color-dark;
+    .component {
+        padding: 0px;
+        .component-content {
+            padding: 15px;
+            display: block;
+            height: 100%;
+            background-color: $color-primary;
+            color: $text-color-light;
+            a{
+                color: $color-secondary-light;
+                &:hover{
+                    color: $color-secondary;
+                }
+            }
+        }        
+        /*&:nth-child(2n) .component-content {
+            background-color: $color-primary-light;
+            color: $text-color-dark;
+            a{
+                color: $color-secondary-dark;
+                &:hover{
+                    color: $color-secondary;
+                }
+            }
+        }*/
+        h3 {
+            margin-top: 0px;
+        }
+    }
+    .card-container {
+        padding-top: 15px;
+        .component {
+            padding: 0px 15px 15px 0px;
+        }
+        &>.container {
+            padding-right: 0px;
+        }
+    }
+    a{
+        color: $color-secondary;
+        &:hover{
+            color: $color-secondary-light;
+        }
+    }
+}
+
 .layout-col-1, .layout-col-2, .layout-col-3, .layout-col-4 {
     float: left;
     position: relative;
@@ -74,7 +122,7 @@ ul, ol {
     }
 }
 
-@media (max-width: $media-phone) {
+@include mobile {
     @include resetColumns;
 
     .layout-3 {
